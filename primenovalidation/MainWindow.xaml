@@ -1,0 +1,23 @@
+﻿<Window x:Class="primenovalidation.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:primenovalidation"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <TextBox TextWrapping="Wrap" Text="PRIME VALIDATION VALIDATOR" Height="NaN" Margin="216,0,400,406" Width="NaN"/>
+        <Button  HorizontalAlignment="Left" Margin="52,64,0,0" VerticalAlignment="Top" Content="one" Width="40" Click="Button_Click"/>
+        <Button  HorizontalAlignment="Left" Margin="52,89,0,0" VerticalAlignment="Top" Content="two" Width="40" Click="Button_Click_1"/>
+        <Button  HorizontalAlignment="Left" Margin="52,114,0,0" VerticalAlignment="Top" Content="three" Width="40" Click="Button_Click_2"/>
+        <Button HorizontalAlignment="Left" Margin="52,139,0,0" VerticalAlignment="Top" Content="four" Width="40" Click="Button_Click_3"/>
+        <Button  HorizontalAlignment="Left" Margin="52,164,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.297,0.591" Width="40" Content="five" Click="Button_Click_4"/>
+        <Button  HorizontalAlignment="Left" Margin="52,189,0,0" VerticalAlignment="Top" Content="six" Width="40" Click="Button_Click_5"/>
+        <Button HorizontalAlignment="Left" Margin="52,217,0,0" VerticalAlignment="Top" Content="seven" Width="40" Click="Button_Click_6"/>
+        <Button  HorizontalAlignment="Left" Margin="52,242,0,0" VerticalAlignment="Top" Content="eight" Width="40" Click="Button_Click_7"/>
+        <Button  HorizontalAlignment="Left" Margin="52,267,0,0" VerticalAlignment="Top" Content="nine" Width="40" Click="Button_Click_8"/>
+        <TextBox TextWrapping="Wrap" Text="Enter any number from below." Height="NaN" Margin="164,42,468,372" Width="NaN"/>
+
+    </Grid>
+</Window>
